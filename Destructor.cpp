@@ -25,3 +25,9 @@ angka::~angka(){
     delete[]arr;
     cout<<"alamat array sudah dilepaskan"<<endl;
 }
+
+void angka::cetakData(){
+    for(int i=1;1<=panjang; i++){
+        cout<<i<<" = "<< arr[i]<< endl;
+    }
+}
