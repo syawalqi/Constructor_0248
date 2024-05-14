@@ -7,4 +7,6 @@ class mahasiswa
     static int nim;
     string nama;
 
+    void setID();
+
 }
