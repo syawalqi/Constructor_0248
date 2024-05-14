@@ -17,7 +17,7 @@ angka::angka(int i){
     panjang = 1;
     arr = new int[i];
     isiData();
-};
+}
 
 angka::~angka(){
     cout<<endl;
@@ -27,14 +27,14 @@ angka::~angka(){
 }
 
 void angka::cetakData(){
-    for(int i=1;1<=panjang; i++){
+    for(int i=1;i<=panjang; i++){
         cout<<i<<" = "<< arr[i]<< endl;
     }
-};
+}
 
 void angka::isiData()
 {
-    for(int i=1<=panjang; i++){
+    for(int i=1;i<=panjang; i++){
         cout<<i<<" = ";
         cin>>arr[i];
     }
