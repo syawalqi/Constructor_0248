@@ -12,3 +12,16 @@ class angka{
     void cetakData();
     void isiData();
 };
+
+angka::angka(int i){
+    panjang = 1;
+    arr = new int[i];
+    isiData();
+};
+
+angka::~angka(){
+    cout<<endl;
+    cetakData();
+    delete[]arr;
+    cout<<"alamat array sudah dilepaskan"<<endl;
+}
