@@ -5,5 +5,6 @@ class mahasiswa
 {
     public:
     static int nim;
+    string nama;
 
 }
