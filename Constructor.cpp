@@ -5,6 +5,7 @@ class mahasiswa
 {
     public:
     static int nim;
+    int id;
     string nama;
 
     void setID();
@@ -21,4 +22,9 @@ class mahasiswa
 };
 
 int mahasiswa::nim = 248;
+
+void mahasiswa::setID()
+{
+    id = ++nim;
+}
 
